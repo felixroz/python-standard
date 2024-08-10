@@ -61,4 +61,4 @@ debug = 'poetry run pytest -s -x -vv --pdb --pdbcls=IPython.terminal.debugger:Pd
 post_test = 'coverage html'
 
 [tool.poetry.scripts]
-article-classified-consumer = "your-project-name.app:main"
+your-consumer = "your-project-name.app:main"
