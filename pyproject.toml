@@ -7,6 +7,10 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 
+# adds subproject as a package of your main project
+# disclaimer: it has to be under the main dependencies tab
+# your-worker = { path = "your-worker", develop = true }
+
 [tool.poetry.group.dev.dependencies]
 localstack-client = "^2.5"
 pytest = "^8.3.2"
@@ -36,6 +40,7 @@ select = ['I', 'F', 'E', 'W', 'PL', 'PT']
 # W (Avisos pycodestyle): Warns about code style issues
 # PL (Pylint): Checks for errors and code smells
 # PT (flake8-pytest): Checks for common pytest errors
+
 
 
 [tool.ruff.format]
